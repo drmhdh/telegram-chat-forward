@@ -31,23 +31,23 @@
     },
     "STRING_SESSION": {
       "description": "Get this value from https://my.telegram.org",
-      "value": ""
-    
+     "value": "",
+      "required": false
     },
     "FROM": {
       "description": "obtain from @userinfobot  https://t.me/",
-      "value": ""  
-
+     "value": "",
+      "required": false
     },
     "TO": {
       "description": "-XXXXXXx, obtain from @userinfobot",
-      "value": ""  
-
+     "value": "",
+      "required": false
     },
     "OFFSET": {
       "description": "the offset will auto-update, keep it zero initially",
-      "value": "0"  
-    
+     "value": "",
+      "required": false
     },
     "AUTH_USERS": {
       "description": "allow only pre-defined users to use this bot",
