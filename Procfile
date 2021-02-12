@@ -1,1 +1,1 @@
-worker: python3 -m venv venv &&
+worker: python3 -m venv
