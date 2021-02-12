@@ -1,1 +1,1 @@
-worker: python3 -m venv
+worker: python3 forwarder.py
