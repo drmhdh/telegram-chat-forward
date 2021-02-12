@@ -32,22 +32,27 @@
     "STRING_SESSION": {
       "description": "Get this value from https://my.telegram.org",
       "value": ""
-     },
+      "required": false
+    },
     "FROM": {
       "description": "obtain from @userinfobot  https://t.me/",
       "value": ""  
-      },
+      "required": false
+    },
     "TO": {
       "description": "-XXXXXXx, obtain from @userinfobot",
       "value": ""  
-       },
+      "required": false
+    },
     "OFFSET": {
       "description": "the offset will auto-update, keep it zero initially",
       "value": "0"  
+      "required": false
     },
     "AUTH_USERS": {
       "description": "allow only pre-defined users to use this bot",
       "value": "7351948 466337795"
+      "required": false
     },
     "BANNED_USERS": {
       "description": "Banned Unwanted members..",
